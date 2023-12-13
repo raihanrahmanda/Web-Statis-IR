@@ -3,7 +3,7 @@ const config00 = {
     data: {
         labels: ['Attractions', 'Amenities', 'Access', 'Price', 'No Aspect'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Total Jumlah Review',
             data: [1312, 862, 152, 88, 401],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen', 'lightcoral', 'mediumpurple'],
             borderWidth: 1
@@ -42,7 +42,7 @@ const config01 = {
     data: {
         labels: ['Positif', 'Negatif', 'Netral'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Total Jumlah Review',
             data: [980, 139, 193],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
@@ -77,7 +77,7 @@ const config02 = {
     data: {
         labels: ['Positif', 'Negatif', 'Netral'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Total Jumlah Review',
             data: [545, 191, 126],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
@@ -112,7 +112,7 @@ const config03 = {
     data: {
         labels: ['Positif', 'Negatif', 'Netral'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Total Jumlah Review',
             data: [117, 21, 14],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
@@ -147,7 +147,7 @@ const config04 = {
     data: {
         labels: ['Positif', 'Negatif', 'Netral'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Total Jumlah Review',
             data: [66, 15, 7],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
@@ -182,7 +182,7 @@ const config05 = {
     data: {
         labels: ['Positif', 'Negatif', 'Netral'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Total Jumlah Review',
             data: [145, 9, 247],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
