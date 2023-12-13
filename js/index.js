@@ -42,7 +42,6 @@ function changeChart() {
   const selectedOption2 = selected2.innerHTML;
 
   if (selectedOption1 === 'Jumlah Review') {
-    updateChart(config00);
     if (selectedOption2 === 'Attractions') {
       updateChart(config01);
     } else if (selectedOption2 === 'Amenities') {
@@ -53,6 +52,8 @@ function changeChart() {
       updateChart(config04);
     } else if (selectedOption2 === 'No Aspect') {
       updateChart(config05);
+    } else {
+      updateChart(config00);
     }
   } else if (selectedOption1 === 'Proporsi Label Sentimen') {
     if (selectedOption2 === 'Attractions') {

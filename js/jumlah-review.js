@@ -26,10 +26,6 @@ const config00 = {
             }
         },
         plugins: {
-            title: {
-                display: true,
-                text: 'Total Jumlah Review pada Masing-masing Aspek (Selain "None")',
-            },
             legend: {
                 display: false,
             }

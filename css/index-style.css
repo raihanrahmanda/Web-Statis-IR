@@ -5,7 +5,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #f7f6ff;
+  background: #f5f6fa;
 }
 
 h2 {
@@ -17,6 +17,7 @@ h2 {
   flex-direction: column;
   /* Change to column layout */
   align-items: center;
+  margin-bottom: 40px;
   /* Center items horizontally */
 }
 
@@ -30,7 +31,8 @@ h2 {
 
 .chart {
   width: 750px;
-  margin: 0;
+  /* width: auto; */
+  margin: 20px;
   /* Remove the top margin */
 }
 
@@ -42,10 +44,16 @@ h2 {
   display: none;
 }
 
+.wrap-chart {
+  background-color: #f5f6fa;
+  border-radius: 20px;
+  border: 1px solid #dcdde1;
+}
+
 .dropdown-container-1,
 .dropdown-container-2 {
   margin-top: 2px;
-  padding: 32px;
+  padding: 45px;
 }
 
 .select-box-1 {
@@ -164,4 +172,24 @@ h2 {
 .select-box-1 .option-1 .radio,
 .select-box-2 .option-2 .radio {
   display: none;
+}
+
+/* Tambahkan media query untuk layar berukuran kecil */
+@media screen and (max-width: 768px) {
+  .wrap-dropdown-container {
+    flex-direction: column;
+  }
+
+  .select-box-1,
+  .select-box-2 {
+    width: 150%;
+  }
+
+  .wrap-chart {
+    width: 75%;
+  }
+
+  .chart {
+    width: 75%;
+  }
 }
