@@ -1,10 +1,10 @@
-const config11 = {
+const config16 = {
     type: 'bar',
     data: {
         labels: ['Positif', 'Negatif', 'Netral', 'None'],
         datasets: [{
-            label: 'Rerata Jumlah Kata',
-            data: [31.1602, 32.5324, 38.1295, 1],
+            label: 'Rerata Jumlah Kata Unik',
+            data: [12.8551, 13.7914, 15.7772, 1],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
         }]
@@ -21,7 +21,7 @@ const config11 = {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Rerata Jumlah Kata per Label Sentimen'
+                    text: 'Rerata Jumlah Kata Unik per Label Sentimen'
                 }
             }
         },
@@ -35,13 +35,13 @@ const config11 = {
     }
 };
 
-const config12 = {
+const config17 = {
     type: 'bar',
     data: {
         labels: ['Positif', 'Negatif', 'Netral', 'None'],
         datasets: [{
-            label: 'Rerata Jumlah Kata',
-            data: [18.9949, 17.0144, 21.7513, 17.0941],
+            label: 'Rerata Jumlah Kata Unik',
+            data: [8.1071, 7.5755, 8.6684, 6.7042],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
         }]
@@ -58,7 +58,7 @@ const config12 = {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Rerata Jumlah Kata per Label Sentimen'
+                    text: 'Rerata Jumlah Kata Unik per Label Sentimen'
                 }
             }
         },
@@ -72,13 +72,13 @@ const config12 = {
     }
 };
 
-const config13 = {
+const config18 = {
     type: 'bar',
     data: {
         labels: ['Positif', 'Negatif', 'Netral', 'None'],
         datasets: [{
-            label: 'Rerata Jumlah Kata',
-            data: [3.5357, 2.6547, 2.8446, 3.2622],
+            label: 'Rerata Jumlah Kata Unik',
+            data: [2, 1.7194, 1.6891, 1.8672],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
         }]
@@ -95,7 +95,7 @@ const config13 = {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Rerata Jumlah Kata per Label Sentimen'
+                    text: 'Rerata Jumlah Kata Unik per Label Sentimen'
                 }
             }
         },
@@ -109,13 +109,13 @@ const config13 = {
     }
 };
 
-const config14 = {
+const config19 = {
     type: 'bar',
     data: {
         labels: ['Positif', 'Negatif', 'Netral', 'None'],
         datasets: [{
-            label: 'Rerata Jumlah Kata',
-            data: [2.1255, 1.8345, 2.3990, 2.4924],
+            label: 'Rerata Jumlah Kata Unik',
+            data: [1.4408, 1.4029, 1.5855, 1.6034],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
         }]
@@ -132,7 +132,7 @@ const config14 = {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Rerata Jumlah Kata per Label Sentimen'
+                    text: 'Rerata Jumlah Kata Unik per Label Sentimen'
                 }
             }
         },
@@ -146,13 +146,13 @@ const config14 = {
     }
 };
 
-const config15 = {
+const config20 = {
     type: 'bar',
     data: {
         labels: ['Positif', 'Negatif', 'Netral', 'None'],
         datasets: [{
-            label: 'Rerata Jumlah Kata',
-            data: [3.4561, 3.4676, 5.9896, 6.7210],
+            label: 'Rerata Jumlah Kata Unik',
+            data: [2.1918, 2.0144, 3.4197, 3.1714],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen'],
             borderWidth: 1
         }]
@@ -169,7 +169,7 @@ const config15 = {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'Rerata Jumlah Kata per Label Sentimen'
+                    text: 'Rerata Jumlah Kata Unik per Label Sentimen'
                 }
             }
         },

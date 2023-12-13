@@ -109,8 +109,6 @@ function changeChart() {
   }
 }
 
-
-
 function updateChart(config) {
   myChart.destroy();
   myChart = new Chart(

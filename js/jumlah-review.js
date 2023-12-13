@@ -29,6 +29,9 @@ const config00 = {
             title: {
                 display: true,
                 text: 'Total Jumlah Review pada Masing-masing Aspek (Selain "None")',
+            },
+            legend: {
+                display: false,
             }
         }
     }
@@ -62,9 +65,8 @@ const config01 = {
             }
         },
         plugins: {
-            title: {
-                display: true,
-                text: 'Total Jumlah Review pada Aspek Attraction',
+            legend: {
+                display: false,
             }
         }
     }
@@ -96,6 +98,11 @@ const config02 = {
                     text: 'Total Jumlah Review'
                 }
             }
+        },
+        plugins: {
+            legend: {
+                display: false,
+            }
         }
     }
 };
@@ -125,6 +132,11 @@ const config03 = {
                     display: true,
                     text: 'Total Jumlah Review'
                 }
+            }
+        },
+        plugins: {
+            legend: {
+                display: false,
             }
         }
     }
@@ -156,6 +168,11 @@ const config04 = {
                     text: 'Total Jumlah Review'
                 }
             }
+        },
+        plugins: {
+            legend: {
+                display: false,
+            }
         }
     }
 };
@@ -185,6 +202,11 @@ const config05 = {
                     display: true,
                     text: 'Total Jumlah Review'
                 }
+            }
+        },
+        plugins: {
+            legend: {
+                display: false,
             }
         }
     }
