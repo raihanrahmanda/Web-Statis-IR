@@ -1,18 +1,21 @@
-const config2 = {
+const config06 = {
     type: 'pie',
     data: {
-        labels: ['Red', 'Blue', 'Yellow'],
+        labels: ['Attractions', 'Amenities', 'Access', 'Price', 'No Aspect'],
         datasets: [{
             label: '# of Votes',
-            data: [12, 19, 3],
+            data: [10, 20, 30, 10, 30],
+            backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen', 'lightcoral', 'mediumpurple'],
             borderWidth: 1
         }]
     },
     options: {
-        scales: {
-            y: {
-                beginAtZero: true
+        plugins: {
+            title: {
+                display: true,
+                text: 'Proporsi Masing-masing Aspek (Selain "None")',
             }
         }
     }
 };
+

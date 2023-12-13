@@ -34,7 +34,7 @@ optionsList2.forEach(o => {
 
 let myChart = new Chart(
   document.getElementById('myChart'),
-  config1
+  config00
 );
 
 function changeChart() {
@@ -42,19 +42,19 @@ function changeChart() {
   const selectedOption2 = selected2.innerHTML;
 
   if (selectedOption1 === 'Jumlah Review') {
+    updateChart(config00);
     if (selectedOption2 === 'Attractions') {
-      updateChart(config2);
+      updateChart(config01);
     } else if (selectedOption2 === 'Amenities') {
-      updateChart(config1);
+      updateChart(config02);
     } else if (selectedOption2 === 'Access') {
-      updateChart(config2);
+      updateChart(config03);
     } else if (selectedOption2 === 'Price') {
-      updateChart(config1);
+      updateChart(config04);
     } else if (selectedOption2 === 'No Aspect') {
-      updateChart(config2);
+      updateChart(config05);
     }
   } else if (selectedOption1 === 'Proporsi Label Sentimen') {
-    updateChart(config2);
     if (selectedOption2 === 'Attractions') {
       updateChart(config2);
     } else if (selectedOption2 === 'Amenities') {
