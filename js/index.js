@@ -56,18 +56,60 @@ function changeChart() {
     }
   } else if (selectedOption1 === 'Proporsi Label Sentimen') {
     if (selectedOption2 === 'Attractions') {
-      updateChart(config2);
+      updateChart(config06);
     } else if (selectedOption2 === 'Amenities') {
-      updateChart(config1);
+      updateChart(config07);
     } else if (selectedOption2 === 'Access') {
-      updateChart(config2);
+      updateChart(config08);
     } else if (selectedOption2 === 'Price') {
-      updateChart(config1);
+      updateChart(config09);
     } else if (selectedOption2 === 'No Aspect') {
-      updateChart(config2);
+      updateChart(config10);
+    }
+  } else if (selectedOption1 === 'Rerata Jumlah Kata per Label Sentimen') {
+    if (selectedOption2 === 'Attractions') {
+      updateChart(config11);
+    } else if (selectedOption2 === 'Amenities') {
+      updateChart(config12);
+    } else if (selectedOption2 === 'Access') {
+      updateChart(config13);
+    } else if (selectedOption2 === 'Price') {
+      updateChart(config14);
+    } else if (selectedOption2 === 'No Aspect') {
+      updateChart(config15);
+    }
+  } else if (selectedOption1 === 'Rerata Jumlah Kata Unik per Label Sentimen') {
+    if (selectedOption2 === 'Attractions') {
+      updateChart(config16);
+    } else if (selectedOption2 === 'Amenities') {
+      updateChart(config17);
+    } else if (selectedOption2 === 'Access') {
+      updateChart(config18);
+    } else if (selectedOption2 === 'Price') {
+      updateChart(config19);
+    } else if (selectedOption2 === 'No Aspect') {
+      updateChart(config20);
+    }
+  } else if (selectedOption1 === 'Rata-Rata Jumlah Kata per Review') {
+    updateChart(config21);
+  } else if (selectedOption1 === 'Rata-Rata Jumlah Kalimat per Review') {
+    updateChart(config22);
+  } else if (selectedOption1 === 'Top 10 Kemunculan Kata') {
+    if (selectedOption2 === 'Attractions') {
+      updateChart(config23);
+    } else if (selectedOption2 === 'Amenities') {
+      updateChart(config24);
+    } else if (selectedOption2 === 'Access') {
+      updateChart(config25);
+    } else if (selectedOption2 === 'Price') {
+      updateChart(config26);
+    } else if (selectedOption2 === 'No Aspect') {
+      updateChart(config27);
     }
   }
 }
+
+
 
 function updateChart(config) {
   myChart.destroy();
