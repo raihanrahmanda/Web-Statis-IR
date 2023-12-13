@@ -55,16 +55,17 @@ function changeChart() {
       updateChart(config05);
     }
   } else if (selectedOption1 === 'Proporsi Label Sentimen') {
+    updateChart(config06);
     if (selectedOption2 === 'Attractions') {
-      updateChart(config2);
+      updateChart(config06);
     } else if (selectedOption2 === 'Amenities') {
-      updateChart(config1);
+      updateChart(config07);
     } else if (selectedOption2 === 'Access') {
-      updateChart(config2);
+      updateChart(config08);
     } else if (selectedOption2 === 'Price') {
-      updateChart(config1);
+      updateChart(config09);
     } else if (selectedOption2 === 'No Aspect') {
-      updateChart(config2);
+      updateChart(config10);
     }
   }
 }
