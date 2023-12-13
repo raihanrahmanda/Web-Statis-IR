@@ -3,7 +3,7 @@ const config21 = {
     data: {
         labels: ['Attractions', 'Amenities', 'Access', 'Price', 'No Aspect'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Rerata Jumlah Kata per Review',
             data: [32.3547, 39.7958, 30.0592, 28.0114, 18.9798],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen', 'lightcoral', 'mediumpurple'],
             borderWidth: 1
@@ -28,7 +28,7 @@ const config21 = {
         plugins: {
             legend: {
                 display: false,
-            }
-        }
+            }
+        }
     }
 };

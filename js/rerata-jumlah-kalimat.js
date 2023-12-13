@@ -3,7 +3,7 @@ const config22 = {
     data: {
         labels: ['Attractions', 'Amenities', 'Access', 'Price', 'No Aspect'],
         datasets: [{
-            label: '# of Votes',
+            label: 'Rerata Jumlah Kalimat per Review',
             data: [3.5492, 4.2459, 3.2434, 3.3409, 2.9451],
             backgroundColor: ['lightskyblue', 'lightsalmon', 'lightgreen', 'lightcoral', 'mediumpurple'],
             borderWidth: 1
